@@ -19,10 +19,10 @@ export default function Home() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
           <div className="max-w-xl">
-            <button className="group relative px-4 py-1.5 mb-8 text-xs font-semibold tracking-[0.2em] uppercase text-gray-400 border border-white/10 rounded-full bg-white/5 hover:bg-white/10 hover:text-white hover:border-white/20 transition-all duration-300 backdrop-blur-sm cursor-default">
+            <a href="mailto:b.vijay0452@gmail.com" className="group relative px-4 py-1.5 mb-8 text-xs font-semibold tracking-[0.2em] uppercase text-gray-400 border border-white/10 rounded-full bg-white/5 hover:bg-white/10 hover:text-white hover:border-white/20 transition-all duration-300 backdrop-blur-sm inline-block">
               Contact
               <span className="absolute inset-0 rounded-full bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-[0_0_20px_rgba(255,255,255,0.05)]" />
-            </button>
+            </a>
             <p className="text-4xl md:text-5xl text-white font-light leading-[1.1] tracking-tight">
               If you are building something, <br />
               <span className="text-gray-500 italic font-serif">let's talk.</span>
@@ -43,13 +43,6 @@ export default function Home() {
                   +91 8072396986
                 </a>
               </div>
-              <div className="flex gap-6 mt-4">
-                <a href="https://www.linkedin.com/in/vijay-b-b51375323/" target="_blank" className="text-sm uppercase tracking-widest text-gray-500 hover:text-white transition-all duration-300 border-b border-transparent hover:border-white/20 pb-1">
-                  LinkedIn
-                </a>
-                <a href="#" className="text-sm uppercase tracking-widest text-gray-500 hover:text-white transition-all duration-300 border-b border-transparent hover:border-white/20 pb-1">
-                  Twitter
-                </a>
               </div>
             </div>
             <div className="mt-16 md:mt-0 text-[11px] uppercase tracking-[0.3em] text-gray-700 font-medium">
